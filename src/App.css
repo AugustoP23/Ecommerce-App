@@ -1,6 +1,10 @@
+.App{ 
+  min-width: 500px;
+}
+
 .Header {
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap; 
   background-color: white;
   /* justify-content: space-evenly;
   gap: 0.01em; */
@@ -153,3 +157,119 @@
   height: 700px;
   background-color: #f2595e;
 } */
+
+.s1Container, .s2__container{
+  width: 1080px;
+  margin: 100px;
+}
+.section1, .section2{
+  position: relative;
+  display: flex;
+  flex-flow: space-between;
+  padding: 50px;  
+  border: 10px solid #90a4ae6b;
+  width: 1020px;
+}
+
+.section2{
+  background: linear-gradient(72.77deg, #EDEEF6 11.72%, rgba(237, 238, 246, 0) 98.52%);
+border-radius: 50px;
+}
+.section1__imageContainer, .s2__imagesContainer{
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+.cellphone1, .s2__cellphone{
+  position: relative;
+  width: 229px;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 33.4061px;
+  border: 10px solid #90a4ae6b;
+  background: linear-gradient(0deg, #DCDEFE, #DCDEFE);
+/* product drop shadow */
+
+}
+
+.s1_figures1{
+  position: absolute;
+  width: 160px;
+  left: 26.92%;
+  right: 71.01%;
+  top: 74.54%;
+  bottom: 58.33%;
+}
+
+.s1_figures2{
+  position: absolute;
+  left: -2.46%;
+  right: 15.28%;
+  top: -1.44%;
+  bottom: 1.96%;
+  width: 130px;
+}
+
+.section1__textContainer, .s2__textContainer{
+  margin-top: 30px;
+  margin-left: 40px;
+  padding: 50px;
+  
+}
+
+.textContainer__title{
+  font-size: 25px;
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: -20px;
+  font-weight: 700;
+  font-style: normal;
+  size: 24px;
+  color: #5956E9;
+}
+
+.textContainer__subtitle, .s2__textTitle{
+  text-align: left;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 67px;  
+}
+
+.textContainer__text, .s2__textContent{
+  text-align: left;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 1.5px;
+  width: 500px;
+  color: #868686;
+}
+
+.s2__circle1{
+  width: 100px;
+  position: relative;
+  left: 400px;
+}
+
+.s2__circle2{
+  position: absolute;
+  right: 95px;
+  bottom: 150px;
+  width: 370px;   
+}
+
+.s2__circle3{
+  position: absolute;
+  width: 70px;
+  left: 580px;
+}
+
+.s2__circle4{
+  width: 90px;
+  position: absolute;
+  top: 500px;
+  left: 470px;
+}
+
+
