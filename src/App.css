@@ -1,44 +1,36 @@
-.App{ 
+.App {
   min-width: 500px;
 }
 
 .Header {
   display: flex;
-  flex-wrap: wrap; 
+  /* flex-wrap: wrap; */
   background-color: white;
-  /* justify-content: space-evenly;
-  gap: 0.01em; */
   position: relative;
-  /* top: 30px;
-  left: 100px;
-  width: 1000px; */
+  width: 1350px;
 }
 
 .menu {
-  /* background-color: aqua; */
   position: relative;
-  /* margin: 0.75em 2em 0.75em 2em; */
   padding: 60px;
   left: 250px;
 }
 
-.Header_info {
+.headerInfo {
   position: absolute;
   top: 170px;
   width: 550px;
   left: 200px;
-
-  /* margin: 0.75em 2em 0.75em 2em; */
 }
 
-.Titulo {
+.title {
   text-align: left;
   font-weight: 700;
   font-size: 60px;
   line-height: 67px;
 }
 
-.Header_texto {
+.headerText {
   text-align: start;
   font-family: Raleway;
   font-style: normal;
@@ -49,7 +41,7 @@
   color: #868686;
 }
 
-.Logo {
+.logoHeader {
   position: relative;
   left: 250px;
   top: 50px;
@@ -57,27 +49,27 @@
   height: 36px;
 }
 
-.elipse {
+.blueElipse {
   position: relative;
   left: 197px;
   width: 500px;
   height: 620px;
 }
 
-.elipse2 {
+.yellowElipse {
   position: absolute;
   width: 222px;
   height: 150px;
 }
 
-.circle1 {
+.yellowCircle {
   position: absolute;
   width: 100px;
   height: 100px;
   left: 550px;
   top: 590px;
 }
-.circle2 {
+.pinkCircle {
   position: absolute;
   width: 50px;
   height: 50px;
@@ -85,30 +77,25 @@
   top: 450px;
 }
 
-.circle1_small {
+.yellowCircle2 {
   position: absolute;
   width: 50px;
-
   left: 770px;
   top: 150px;
 }
 
-.sally1 {
+.sallyHeader {
   position: absolute;
   width: 700px;
   height: 700px;
-  right: 15px;
+  left: 610px;
   top: 25px;
 }
 
-.menu__meta {
+.menuMeta {
   justify-content: space-between;
   align-items: center;
 }
-
-/* .menu__tags {
-  gap: 100px;
-} */
 
 .tag {
   padding: 1em 2em;
@@ -116,15 +103,15 @@
   font-weight: 600;
 }
 
-.Download {
-  word-wrap: normal;
+.buttonHeader {
+  /* word-wrap: normal; */
   font-weight: 600;
   font-size: 15px;
   color: #ffffff;
   padding-top: 15px;
   padding-bottom: 15px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
   background-color: #f2595e;
   border-color: #f69da1;
   border-width: 3px;
@@ -134,7 +121,7 @@
   top: 50px;
 }
 
-.Download2 {
+.buttonHeader2 {
   word-wrap: normal;
   font-weight: 600;
   font-size: 15px;
@@ -152,46 +139,77 @@
   top: 500px;
 }
 
-/* .cuadrado {
-  width: 500px;
-  height: 700px;
-  background-color: #f2595e;
-} */
-
-.s1Container, .s2__container{
+.s1Container,
+.s2__container,
+.s3_container,
+.s5_container {
   width: 1080px;
   margin: 100px;
 }
-.section1, .section2{
+.section1,
+.section2,
+.section3,
+.section5 {
   position: relative;
   display: flex;
   flex-flow: space-between;
-  padding: 50px;  
+  padding: 50px;
   border: 10px solid #90a4ae6b;
   width: 1020px;
 }
 
-.section2{
-  background: linear-gradient(72.77deg, #EDEEF6 11.72%, rgba(237, 238, 246, 0) 98.52%);
-border-radius: 50px;
+.section2 {
+  background: linear-gradient(
+    72.77deg,
+    #edeef6 11.72%,
+    rgba(237, 238, 246, 0) 98.52%
+  );
+  border-radius: 50px;
 }
-.section1__imageContainer, .s2__imagesContainer{
+.section1__imageContainer,
+.s2__imagesContainer,
+.s3_imagecontainer,
+.s5_imagecontainer {
   display: flex;
   flex-direction: column;
   padding: 25px;
 }
-.cellphone1, .s2__cellphone{
+.cellphone1,
+.s2__cellphone,
+.s3_phone {
   position: relative;
   width: 229px;
   box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
   border-radius: 33.4061px;
   border: 10px solid #90a4ae6b;
-  background: linear-gradient(0deg, #DCDEFE, #DCDEFE);
-/* product drop shadow */
-
+  background: linear-gradient(0deg, #dcdefe, #dcdefe);
+  /* product drop shadow */
 }
 
-.s1_figures1{
+.s5_image {
+  position: relative;
+  width: 400px;
+}
+
+.s5_figures {
+  position: absolute;
+  width: 190px;
+  left: 55%;
+  right: 71.01%;
+  top: 65%;
+  bottom: 58.33%;
+}
+
+.s5_figures2 {
+  position: absolute;
+  left: 85%;
+  right: 15.28%;
+  top: 15%;
+  bottom: 1.96%;
+  width: 50px;
+}
+
+.s1_figures1 {
   position: absolute;
   width: 160px;
   left: 26.92%;
@@ -200,7 +218,7 @@ border-radius: 50px;
   bottom: 58.33%;
 }
 
-.s1_figures2{
+.s1_figures2 {
   position: absolute;
   left: -2.46%;
   right: 15.28%;
@@ -209,14 +227,32 @@ border-radius: 50px;
   width: 130px;
 }
 
-.section1__textContainer, .s2__textContainer{
+.s3_figures1 {
+  position: absolute;
+  width: 50px;
+  left: 30%;
+  right: 71.01%;
+  top: 8%;
+  bottom: 58.33%;
+}
+
+.s3_figures2 {
+  position: absolute;
+  left: -2.46%;
+  right: 15.28%;
+  top: 50%;
+  bottom: 1.96%;
+  width: 70px;
+}
+
+.section1__textContainer,
+.s2__textContainer {
   margin-top: 30px;
   margin-left: 40px;
   padding: 50px;
-  
 }
 
-.textContainer__title{
+.textContainer__title {
   font-size: 25px;
   text-align: left;
   margin-top: 30px;
@@ -224,17 +260,26 @@ border-radius: 50px;
   font-weight: 700;
   font-style: normal;
   size: 24px;
-  color: #5956E9;
+  color: #5956e9;
 }
 
-.textContainer__subtitle, .s2__textTitle{
+.textContainer__subtitle,
+.s2__textTitle {
   text-align: left;
   font-weight: 700;
   font-size: 60px;
-  line-height: 67px;  
+  line-height: 67px;
 }
 
-.textContainer__text, .s2__textContent{
+.textContainer__subtitle5 {
+  text-align: left;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.textContainer__text,
+.s2__textContent {
   text-align: left;
   font-family: Raleway;
   font-style: normal;
@@ -246,30 +291,28 @@ border-radius: 50px;
   color: #868686;
 }
 
-.s2__circle1{
+.s2__circle1 {
   width: 100px;
   position: relative;
   left: 400px;
 }
 
-.s2__circle2{
+.s2__circle2 {
   position: absolute;
   right: 95px;
   bottom: 150px;
-  width: 370px;   
+  width: 370px;
 }
 
-.s2__circle3{
+.s2__circle3 {
   position: absolute;
   width: 70px;
   left: 580px;
 }
 
-.s2__circle4{
+.s2__circle4 {
   width: 90px;
   position: absolute;
   top: 500px;
   left: 470px;
 }
-
-
