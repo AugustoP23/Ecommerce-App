@@ -142,13 +142,15 @@
 .s1Container,
 .s2__container,
 .s3_container,
+.s4__container,
 .s5_container {
-  width: 1080px;
-  margin: 100px;
+  width: 1000px;
+  margin: 130px;
 }
 .section1,
 .section2,
 .section3,
+.section4,
 .section5 {
   position: relative;
   display: flex;
@@ -156,6 +158,18 @@
   padding: 50px;
   border: 10px solid #90a4ae6b;
   width: 1020px;
+  height: 500px;
+}
+
+.s1__title{
+  position: relative;
+  left: 450px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 36px;
+  color: #000000;
+  opacity: 0.8;
 }
 
 .section2 {
@@ -169,14 +183,14 @@
 .section1__imageContainer,
 .s2__imagesContainer,
 .s3_imagecontainer,
-.s5_imagecontainer {
+.s5_imageContainer {
   display: flex;
   flex-direction: column;
   padding: 25px;
 }
 .cellphone1,
 .s2__cellphone,
-.s3_phone {
+.s3_phone,e {
   position: relative;
   width: 229px;
   box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
@@ -292,9 +306,10 @@
 }
 
 .s2__circle1 {
-  width: 100px;
-  position: relative;
-  left: 400px;
+  width: 85px;
+  position: absolute;
+  right: 120px;
+  top: -35px;
 }
 
 .s2__circle2 {
@@ -306,13 +321,70 @@
 
 .s2__circle3 {
   position: absolute;
-  width: 70px;
+  width: 60px;
   left: 580px;
 }
 
 .s2__circle4 {
-  width: 90px;
+  width: 70px;
   position: absolute;
   top: 500px;
-  left: 470px;
+  left:440px;
+}
+
+.section4{
+  background: #FAB8C5;
+border-radius: 50px;
+  height: 370px;
+}
+
+.s4__text{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 57px;
+  /* or 142% */
+  letter-spacing: 0.2px;
+  color: #5956E9;
+}
+
+.s4__downloadBtn{
+  background: #5956E9;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 314px;
+  height: 70px;
+  border-radius: 10px;
+  color: #F6F6F9;
+}
+
+.s4__textContainer{
+  position: relative;
+  left: 90px;
+  text-align: left;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  width: fit-content;
+}
+.s4__imageContainer{
+  position: relative;
+  height: 380px;
+  width: 400;
+  border-radius: 33.4061px;
+  left: 50px;
+}
+.s4__phone{
+  position: relative;
+  width: 120%;
+  bottom: 255px;
+}
+
+.s4__phoneBackground{
+  position: absolute;
+  width: 170.5px;
+  height: 320.95px;
+  border-radius: 20px;
+  bottom: 160px;
+  left: 258px;
 }

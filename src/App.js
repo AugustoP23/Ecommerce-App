@@ -13,6 +13,8 @@ import yellowCircle from "./images/yellowCircle.png";
 import pinkCircle from "./images/pinkCircle.png";
 import s3_figures1 from "./images/s3_figures1.png";
 import s3_figures2 from "./images/s3_figures2.png";
+import s4__phone from "./images/s4__phone.png";
+import s4__phoneBackground from "./images/s4__phoneBackground.jpg"
 import s3_phone from "./images/s3_phone.jpeg";
 import s5_figures from "./images/s5_figures.png";
 import s5_image from "./images/s5_image.png";
@@ -60,7 +62,7 @@ function App() {
       </div>
 
       <div className="s1Container">
-        <h2>How the app works</h2>
+        <h2 className="s1__title">How the app works</h2>
         <div className="section1">
           <div className="section1__imageContainer">
             <img
@@ -93,9 +95,6 @@ function App() {
       </div>
 
       <div className="s2__container">
-        <div className="s2__circleContainer">
-          <img src={section2_circle1} alt="" className="s2__circle1"></img>
-        </div>
         <div className="section2">
           <div className="s2__textContainer">
             <h1 className="s2__textTitle">
@@ -107,6 +106,7 @@ function App() {
             </p>
           </div>
           <div className="s2__imagesContainer">
+            <img src={section2_circle1} alt="" className="s2__circle1"></img>
             <img src={s2_circle2} alt="" className="s2__circle2"></img>
             <img src={s2_circle2} alt="" className="s2__circle3"></img>
             <img src={s2_circle2} alt="" className="s2__circle4"></img>
@@ -139,7 +139,18 @@ function App() {
         </div>
       </div>
 
-      <div className="section4"></div>
+      <div className="s4__container">
+        <div className="section4">
+          <div className="s4__textContainer">
+            <h1 className="s4__text">Save time & money with exclusive offers from top stores</h1>
+            <button className="s4__downloadBtn">Download App</button>
+          </div>
+          <div className="s4__imageContainer">
+          <img src={s4__phone} className="s4__phone"></img>
+          <img src={s4__phoneBackground} className="s4__phoneBackground"></img>
+          </div>
+        </div>
+      </div>
 
       <div className="s5_container">
         <div className="section5">
